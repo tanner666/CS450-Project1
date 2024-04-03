@@ -31,6 +31,7 @@ slider2=html.Div(className="child1_1_3",children=[html.Label('Select Year Range'
 radio1=html.Div(className="child2_1_1",children=[dcc.RadioItems(id='radio', options=[], value="", inline=True)])
 
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div(className="parent", children=[
     html.Div(className="child1",children=[html.Div([dropdown1,dropdown2,slider2], className="child1_1"),html.Div(dcc.Graph(id='graph1'), className="child1_2")]),
