@@ -12,14 +12,29 @@ body{
     height: 800px;
     margin-top: 50px;
 }
+.grouped-children-title{
+    text-align: "center";
+}
+.child-group1{
+    margin-bottom: 30px;
+    width: 100%;
+    justify-content:flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /*applies on the cross axis*/
+}
 .child1{
     width: 80%;
+    margin-bottom: 50px;
 }
 .child2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 1000px;   
+    width: 80%;   
+}
+.child3{
+    width: 80%;   
+}
+.child4{
+    width: 80%;   
 }
 
 /* Customize the Slider */
