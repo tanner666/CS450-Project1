@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content:flex-start; /*applies on the main axis*/
+    align-items: center;   /*applies on the cross axis*/
+    width: 100%;
+    margin: 0px;
+    height: 800px;
+    margin-top: 50px;
+}
+.child1{
+    width: 80%;
+}
+.child2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1000px;   
+}
+
+/* Customize the Slider */
+.rc-slider-rail{
+    background-color: #a2a2a2;
+}
+.rc-slider-track{
+    background-color: #282828;
+}
+.rc-slider-dot {
+    border: 2px solid #7c7c7c;
+    background-color: #777777;
+}
+.rc-slider-handle {
+    border: solid 2px #868686;
+    background-color: #fff;
+}
+.rc-slider-mark-text {
+    color: #3e3e3e;
+}
