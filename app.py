@@ -3,7 +3,7 @@ from dash import dcc, html, Output, Input
 import pandas as pd
 import plotly.express as px
 # Load the dataset from the csv file
-csv_file_path = './Midterm/World Energy Consumption.csv'
+csv_file_path = './World Energy Consumption.csv'
 energy_df = pd.read_csv(csv_file_path)
 
 # Get the data columns
